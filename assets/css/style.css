@@ -755,11 +755,12 @@ footer h3{
 }
 
 .news-article-image img {
-  width: 35%;
-  max-width: 350px;
+  width: 300px;
+  max-width: 70%;
   height: auto;
   border-radius: 16px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
