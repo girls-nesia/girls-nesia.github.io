@@ -749,14 +749,24 @@ footer h3{
     line-height:1.3;
   }
 
-  .news-article-image{
-    margin-bottom:40px;
-  }
+ .news-article-image {
+  margin-bottom: 40px;
+  text-align: center;
+}
 
-  .news-article-image img{
-    max-height:none;
-    border-radius:16px;
+.news-article-image img {
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 16px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .news-article-image img {
+    width: 85%;
   }
+}
 
   .news-article-content{
     font-size:15px;
